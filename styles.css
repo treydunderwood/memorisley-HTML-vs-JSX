@@ -150,6 +150,20 @@ body {
     background-color: #333;
 }
 
+.download-button.tertiary {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #d0cfcb;
+}
+
+.download-button.tertiary:hover {
+    background-color: #e6e5e0;
+}
+
+.download-button.tertiary:active {
+    background-color: #e6e5e0;
+}
+
 /* Fixed label at the top that annotates this version of the page */
 .page-label {
     position: fixed;
